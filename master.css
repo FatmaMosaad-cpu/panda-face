@@ -1,0 +1,207 @@
+.body {
+    padding: 40px;
+    margin: 300px  ;
+    border: 10px solid whitesmoke;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 0 40px #420c0c;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+
+}
+.logain-container{
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+.panda-face{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 5px solid #2e2d30;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.ear{
+    width: 70px;
+    height: 70px;
+    background-color: #2e2d30;
+    border-radius: 50%;
+    position: absolute;
+    top: -25%;
+    z-index: 1;
+}
+.ear-left{
+    left: calc(60% - 70%);
+    width: 70px;
+    height: 70px;
+    background-color: #2e2d30;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    z-index:1;
+}
+.ear-right{
+    right: calc(60% - 70%);
+    width: 70px;
+    height: 70px;
+    background-color: #2e2d30;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    z-index: 1;
+}
+.eye {
+    width: 60px;
+    height: 60px;
+    background-color: #2e2d30;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+}
+.eye-left{
+    width: 60px;
+    height: 70px;
+    background-color: #2e2d30;
+    border-radius: 70%;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+
+}
+.eye-right{
+    right: 60px;
+    width: 60px;
+    height: 70px;
+    background-color: #2e2d30;
+    border-radius: 70%;
+    position: absolute;
+    top: 80px;
+}
+.cheek {
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+}
+.cheek-left{
+    left: 50px;
+    width: 50px;
+    height: 30px;
+    background-color: pink;
+    border-radius: 100%;
+    position: absolute;
+    top: 140px;
+}
+.cheek-right{
+    right: 50px;
+    width: 50px;
+    height: 30px;
+    background-color: pink;
+    border-radius: 100%;
+    position: absolute;
+    top: 140px;
+}
+.mouth {
+    width: 80px;
+    height: 60px;
+    border-bottom: 10px solid #2e2d30;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: none;
+}
+/* .paw {
+    width: 30px;
+    height: 30px;
+    bottom: -15px; 
+    background-color: #2e2d30;
+    border-radius: 50%;
+    position: absolute;
+
+} */
+/* .paw-left {
+    left: 100px;
+    width: 100px;
+    height: 100px; */
+    /* bottom: -50px;  */
+    /* background-color: #2e2d30; */
+    /* border-radius: 50%; */
+    /* position: absolute; */
+/* } */
+/* .paw-right {
+    right: 100px;
+    width: 100px;
+    height: 100px;
+    bottom: -5px; 
+    background-color: #2e2d30;
+    border-radius: 50%;
+    position: absolute;
+} */
+form{
+    margin:auto;
+    width:600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    justify-content: center;
+    align-items: center;
+}
+label{
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+    font-weight: bold;
+}
+input{
+    width: 700px;
+    max-width: 600px;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 1rem;
+    align-items: center;
+
+    border: 10px solid#eee;
+    border-bottom: 2px solid #3f3554;
+    font-size: 2em;
+    outline: none;
+    color: #3f3554;
+    box-sizing: border-box;
+}
+input:focus{
+    border-color: #f4c531;
+}
+button{
+    width: 100px;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 2em;
+    background-color: #f4c531;
+    color: #2e2d30;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
